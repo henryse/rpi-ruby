@@ -8,11 +8,17 @@ RPi-compatible Docker image with [Ruby](https://www.ruby-lang.org)
 
 Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language. According to its authors, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.
 
-## Build Details
+## Orginal Source
 - [Source Project Page](https://github.com/hypriot)
 - [Source Repository](https://github.com/hypriot/rpi-ruby)
 - [Dockerfile](https://github.com/hypriot/rpi-ruby/blob/master/Dockerfile)
 - [DockerHub] (https://registry.hub.docker.com/u/hypriot/rpi-ruby/)
+
+## Build Details for this Branch
+- [Source Project Page](https://github.com/henryse)
+- [Source Repository](https://github.com/henryse/rpi-ruby)
+- [Dockerfile](https://github.com/henryse/rpi-ruby/blob/master/Dockerfile)
+- [DockerHub] (https://registry.hub.docker.com/u/henryse/rpi-ruby/)
 
 ## Build the Docker Image
 Run all the commands from within the project root directory.
@@ -23,7 +29,7 @@ make build
 
 ### Run the Docker Image and get the version of the installed Ruby
 ```bash
-make version
+make VERSION=2.4 build
 ```
 
 ### Push the Docker Image to the Docker Hub
@@ -33,10 +39,6 @@ make version
 ```bash
 make push
 ```
-
-## How to use this image
-
-Todo: Need to add some description
 
 ## License
 

@@ -1,6 +1,6 @@
 # Pull base image
 FROM resin/rpi-raspbian:jessie
-MAINTAINER Govinda fichtner <govinda@hypriot.com>
+MAINTAINER Henry Seurer <henryse@gmail.com>
 
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
